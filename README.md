@@ -22,10 +22,10 @@ Listed hardware has been testified to be complitable.  Other alternaitves may al
 
 ## Logic
 - The system read a trigger input signal, either manul or motion pules,
- - The system get armed, 
- - flahing and buzzing with programmed pattern, 
- - trigger out put sent out simultaneously, gate keeps high.
-- Another Trigger input will disarm the system, with a flash, buzz and trigger output.
+  - The system get armed, 
+  - flahing and buzzing with programmed pattern, 
+  - trigger out put sent out simultaneously, gate keeps high.
+  - Another Trigger input will disarm the system, with a flash, buzz and trigger output.
 ## Software
 - TriggerBox arduino code to drive the box
 - TriggerFinder: {rising falling] = TriggerFinder( High, Low, State)
