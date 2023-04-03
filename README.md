@@ -22,16 +22,16 @@ Listed hardware has been testified to be complitable.  Other alternaitves may al
 
 ## Logic
 - The system read a trigger input signal, either manul or motion pules,
-  - The system get armed, 
-  - flahing and buzzing with programmed pattern, 
-  - trigger out put sent out simultaneously, gate keeps high.
-  - Another Trigger input will disarm the system, with a flash, buzz and trigger output.
+- The system get armed, 
+- flahing and buzzing with programmed pattern, 
+- trigger out put sent out simultaneously, gate keeps high.
+- Another Trigger input will disarm the system, with a flash, buzz and trigger output.
 ## Software
 - TriggerBox arduino code to drive the box
 - TriggerFinder: {rising falling] = TriggerFinder( High, Low, State)
- - Matlab function for postprocessing the trigger siganl
- - Digitize: Set any value lower than Low to 0 and anyvalue higher than High to 5
- - Derivation and find peak to find all rising and falling edge
+  - Matlab function for postprocessing the trigger siganl
+  - Digitize: Set any value lower than Low to 0 and anyvalue higher than High to 5
+  - Derivation and find peak to find all rising and falling edge
 - Beepfinder:
- - short time fourier transfromation (STFT) to present a time history of spectrum
- - Cross corelation to find a beep pattern on the STFT
+  - short time fourier transfromation (STFT) to present a time history of spectrum
+  - Cross corelation to find a beep pattern on the STFT
