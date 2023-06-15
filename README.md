@@ -2,8 +2,8 @@
 Programmable MIMO synchronization device, software and hardward design 
 
 ### Input
-- Active Trigger : Read TTL signal rising edge powered with 5V from the system. Intend to coordinate with a conducting mannul push-trigger.
-- Passive Trigger: Read TTL signal rising edge powered with 5V from other system, current rated to 20mA. e.g. the trigger signal from motion controller or high speed cameras.
+- Active Triggers : Read TTL signal rising edge powered with 5V from the system. Intend to coordinate with a conducting manual push-trigger.
+- Passive Triggers: Read TTL signal rising edge powered with 5V from other system, current rated to 20mA. e.g. the trigger signal from motion controller or high speed cameras.
 
 ### Output
 - Flash: A diriving pules to standrad LED diode 
@@ -21,11 +21,17 @@ Listed hardware has been testified to be complitable.  Other alternaitves may al
 - [LED driver](https://www.sparkfun.com/products/13716)
 
 ## Logic
+### V2.6: Gereral purpose version
 - The system read a trigger input signal, either manul or motion pules,
 - The system get armed, 
 - flahing and buzzing with programmed pattern, 
 - trigger out put sent out simultaneously, gate keeps high.
 - Another Trigger input will disarm the system, with a flash, buzz and trigger output.
+### New to V3.01
+  - Take inputs from safety curtain and PTUX to control the gate of DM laser
+  - Armed by push trigger 
+  - Open the laser gate only if the system is armed and LaVision is ready(PTU output  HIGH)
+  - The system disarmed by pushing the manual trigger again or objects fall through the safty curtain
 ## Software
 - TriggerBox arduino code to drive the box
 - TriggerFinder: {rising falling] = TriggerFinder( High, Low, State)
