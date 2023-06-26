@@ -1,6 +1,6 @@
 # TriggerBox
 Programmable MIMO synchronization device, software, and hardware design 
-
+![image](https://github.com/siyanghao/TriggerBox/assets/49823842/441866c8-93c6-4346-a01a-04c31f9e7951)
 ### Input
 - Active Triggers: Read TTL signal rising edge powered with 5V from the system. Intend to coordinate with a conducting manual push-trigger.
 - Passive Triggers: Read TTL signal rising edge powered with 5V from other systems, current rated to 20mA. e.g., the trigger signal from a motion controller or high-speed cameras.
@@ -11,8 +11,6 @@ Programmable MIMO synchronization device, software, and hardware design
 - Trigger Signal: Give a TTL signal to other systems, 5V 20mA or amplified with LM386 amplifier.
 - Gate: keeps high when the system gets armed, low when disarmed.
 ## Logic
-![image](https://github.com/siyanghao/TriggerBox/assets/49823842/441866c8-93c6-4346-a01a-04c31f9e7951)
-
 ### V2.6: General purpose version
 - The system reads a trigger input signal, either manual or motion pules,
 - The system gets armed, 
