@@ -11,7 +11,8 @@ Programmable MIMO synchronization device, software, and hardware design
 - Trigger Signal: Give a TTL signal to other systems, 5V 20mA or amplified with LM386 amplifier.
 - Gate: keeps high when the system gets armed, low when disarmed.
 ## Logic
-![image](https://github.com/siyanghao/TriggerBox/assets/49823842/bd9cae5c-93ac-40a1-9204-151f6e7568df)
+![image](https://github.com/siyanghao/TriggerBox/assets/49823842/441866c8-93c6-4346-a01a-04c31f9e7951)
+
 ### V2.6: General purpose version
 - The system reads a trigger input signal, either manual or motion pules,
 - The system gets armed, 
