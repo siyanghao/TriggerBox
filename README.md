@@ -17,7 +17,7 @@ Programmable MIMO synchronization device, software, and hardware design
 - flashing and buzzing with a programmed pattern, 
 - trigger output sent out simultaneously, gate keeps high.
 - Another Trigger input will disarm the system with a flash, buzz, and trigger output.
-### V3.01: New features added to a specifiied version with PIV/Laser system
+### V3.01: New features added to a specified version with PIV/Laser system
   - Take inputs from the safety curtain and PTUX to control the gate of the DM laser
   - Armed by push trigger 
   - Open the laser gate only if the system is armed and LaVision is ready(PTU output  HIGH)
