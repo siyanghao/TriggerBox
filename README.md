@@ -2,8 +2,8 @@
 Programmable MIMO synchronization device, software, and hardware design 
 ![image](https://github.com/siyanghao/TriggerBox/assets/49823842/441866c8-93c6-4346-a01a-04c31f9e7951)
 ### Input
-- Active Triggers: Read TTL signal rising edge powered with 5V from the system. Intend to coordinate with a conducting manual push-trigger.
-- Passive Triggers: Read TTL signal rising edge powered with 5V from other systems, current rated to 20mA. e.g., the trigger signal from a motion controller or high-speed cameras.
+- Active Triggers (source): Read TTL signal rising edge (5V) from the TriggerBox system. Intend to coordinate with a conducting manual push-trigger.
+- Passive Triggers (sink): Read TTL signal rising edge (5V) from other systems, current rated to 20mA. e.g., the trigger signal from a motion controller or high-speed cameras.
 
 ### Output
 - Flash: A driving pules to standard LED diode 
@@ -17,7 +17,7 @@ Programmable MIMO synchronization device, software, and hardware design
 - flashing and buzzing with a programmed pattern, 
 - trigger output sent out simultaneously, gate keeps high.
 - Another Trigger input will disarm the system with a flash, buzz, and trigger output.
-### V3.01: New features added to a specified version with PIV/Laser system
+### V3.01: New features added to work with PIV/Laser system
   - Take inputs from the safety curtain and PTUX to control the gate of the DM laser
   - Armed by push trigger 
   - Open the laser gate only if the system is armed and LaVision is ready(PTU output  HIGH)
@@ -29,8 +29,11 @@ Programmable MIMO synchronization device, software, and hardware design
   - Digitize: Set any value lower than Low to 0 and any value higher than High to 5
   - Derivation and find a peak to find all rising and falling edge
 - Beepfinder:
+  - find the beep tone collected by microphone in postprocessing
   - short time Fourier transformation (STFT) to present a time history of spectrum
   - Cross-correlation to find a beep pattern on the STFT
+- InlineTrigger
+  - Generate a brust of pluses on the receiving of one TTL pluse. 
 ## Hardware
 The listed hardware has been testified to be completable.  Other alternatives may also be found since they are just common components
 - Arduino (nano, Uno for legacy versions)
