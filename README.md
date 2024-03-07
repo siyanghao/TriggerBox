@@ -44,5 +44,5 @@ The listed hardware has been testified to be completable.  Other alternatives ma
 - [LED driver](https://www.sparkfun.com/products/13716)
 ## PCB Design
 - The shield board is customized for the interface with hardware.
-- The design can be found in another folder.
-- we choose [JLC](https://jlcpcb.com/?from=VG_PCBA&gclid=Cj0KCQjw8qmhBhClARIsANAtbodja4d4qfanlhSsr53VilFTFaHDHzYB8yUYQeh8ex-eZa1-4ntCvNQaAkl_EALw_wcB) as our manufacture. 
+- The design can be found in the PCB design .zip file.
+- we choose [JLC](https://jlcpcb.com/?from=VG_PCBA&gclid=Cj0KCQjw8qmhBhClARIsANAtbodja4d4qfanlhSsr53VilFTFaHDHzYB8yUYQeh8ex-eZa1-4ntCvNQaAkl_EALw_wcB) as our manufacturer. 
