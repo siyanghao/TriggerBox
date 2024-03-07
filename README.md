@@ -1,5 +1,5 @@
 # TriggerBox
-Programmable MIMO synchronization device, software, and hardware design 
+Programmable MIMO synchronization device: software, and hardware design 
 ![image](https://github.com/siyanghao/TriggerBox/assets/49823842/441866c8-93c6-4346-a01a-04c31f9e7951)
 ### Input
 - Active Triggers (source): Read TTL signal rising edge (5V) from the TriggerBox system. Intend to coordinate with a conducting manual push-trigger.
